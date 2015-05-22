@@ -1,0 +1,26 @@
+<div>
+    <br/>
+    <div class="d3 btn-grup">
+        <button type="button" class="btn btn-sm btn-primary" ng-click="goBack()">Go Back</button>
+        <button type="button" class="btn btn-sm btn-info" ng-click="viewFull(img.source)">View Full Size</button>
+        <button type="button" class="btn btn-sm btn-success" ng-click="Download(img.source)">Download Photo</button>
+    </div>
+    <br/>
+    
+    
+    <div class="d3 btn-grup">
+        <button type="button" class="btn btn-xs btn-warning" ng-click="goPrev()">Prev</button>
+        <button type="button" class="btn btn-xs btn-warning" ng-click="goNext()">Next</button>
+    </div>
+    <br/>
+
+
+    <img class="vimg" src="{{img.source}}" />
+    <br/>
+    <br/>
+
+
+    <div class="imgdes">
+        <h4> {{img.name}} </h4>
+    </div>
+</div>

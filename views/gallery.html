@@ -1,0 +1,25 @@
+<div>
+    <h4>   Username of the page or ID: 
+            <br/>
+    <br/>
+    <input type="text" name="u" ng-model="user" value="" /> 
+    <br/>
+    <br/>
+
+    <input class="btn btn-md btn-success" type="submit" value="Get All Photos" ng-click="loadPhotos()" /></h4>
+
+
+    <br/>
+
+    <div id="allVideos">
+        <div class="d1" align="center" ng-repeat="dt in data">
+            <div class="d2">
+                <img src="{{dt.picture}}" alt="{{dt.name}}" ng-click="view(dt)" />
+            </div>
+            <div class="d3 btn-grup">
+                <button type="button" class="btn btn-sm btn-primary" ng-click="view(dt)">View Photo</button>
+            </div>
+        </div>
+    </div>
+
+</div>

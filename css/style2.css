@@ -1,0 +1,56 @@
+     input {
+         text-align: center;
+     }
+     
+     .d1 {
+         text-align: center;
+         width: 200px;
+         display: inline-block;
+         margin: 5px;
+     }
+     
+     .d2 {
+         height: 150px;
+         overflow: hidden;
+     }
+     
+     .d2 img {
+         height: 95%;
+     }
+     
+     div {}
+     
+     video {
+         background: black;
+         padding: 10px;
+     }
+     
+     #whole {
+         width: 90%;
+         font-family: fantasy;
+     }
+     
+     td {
+         margin: 20px;
+         padding: 6%;
+     }
+     
+     #vdo {
+         display: inline-block;
+         max-width: 60%;
+     }
+     
+     #pan {
+         display: inline-block;
+         margin-left: 100px;
+         width: 200px;
+     }
+     
+     .header div {
+         display: inline-block;
+         margin: 30px;
+     }
+     
+     #nav {
+         
+     }
